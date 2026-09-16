@@ -86,6 +86,13 @@ function App() {
             </button>
 
             <button
+              onClick={() => scrollTo("teardown")}
+              className="text-sm text-[#A7ADB4] transition hover:text-[#F5F5F0]"
+            >
+              Teardown
+            </button>
+
+            <button
               onClick={() => scrollTo("contact")}
               className="rounded-full bg-[#7C8CFF] px-5 py-2.5 text-sm font-semibold text-[#0B0D0F] transition hover:-translate-y-0.5 hover:shadow-[0_0_28px_rgba(124,140,255,0.18)]"
             >
@@ -101,6 +108,7 @@ function App() {
           >
             {mobileOpen ? "×" : "☰"}
           </button>
+          
         </div>
 
         {mobileOpen && (
@@ -132,6 +140,13 @@ function App() {
                 className="text-left text-sm text-[#A7ADB4]"
               >
                 About
+              </button>
+
+              <button
+                onClick={() => scrollTo("teardown")}
+                className="text-left text-sm text-[#A7ADB4]"
+              >
+                Teardown
               </button>
 
               <button
@@ -739,7 +754,428 @@ function App() {
           </article>
         </section>
 
-        {/* ABOUT */}
+
+        {/* ABOUT */}{/* KAFTANIZE INDEPENDENT TEARDOWN */}
+        <section
+          id="teardown"
+          className="border-y border-[#29303A]/70 bg-[#101316]"
+        >
+          <div className="mx-auto max-w-7xl px-6 py-24 lg:px-8">
+
+            {/* HEADER */}
+            <div className="max-w-4xl">
+              <SectionLabel>Independent Research</SectionLabel>
+
+              <div className="flex flex-wrap items-start justify-between gap-6">
+                <div>
+                  <h2 className="display-font text-4xl font-bold tracking-tight sm:text-5xl lg:text-6xl">
+                    KAFTANIZE
+                    <br />
+                    <span className="text-[#7C8CFF]">
+                      Independent Paid Media Teardown
+                    </span>
+                  </h2>
+
+                  <p className="mt-6 max-w-3xl text-lg leading-8 text-[#A7ADB4]">
+                    An independent analysis of KAFTANIZE&apos;s Meta advertising,
+                    Google Search visibility, customer journey and conversion
+                    opportunities.
+                  </p>
+                </div>
+
+                <div className="rounded-full border border-[#29303A] bg-[#15181C] px-4 py-2 text-xs font-semibold uppercase tracking-[0.14em] text-[#A7ADB4]">
+                  Independent Analysis
+                </div>
+              </div>
+
+              <div className="mt-7 rounded-2xl border border-[#EF4444]/40 bg-[#EF4444]/5 p-5">
+                <p className="text-sm leading-7 text-[#FCA5A5]">
+                  <span className="font-semibold text-[#EF4444]">Disclaimer:</span>{" "}
+                  I did not manage KAFTANIZE&apos;s advertising campaigns or work with
+                  the brand. This teardown is based on publicly observable advertising,
+                  search results and shopping experiences.
+                </p>
+              </div>
+            </div>
+
+            {/* 01 BRAND + CUSTOMER JOURNEY */}
+            <div className="mt-20">
+
+              <div>
+                <p className="text-xs font-semibold uppercase tracking-[0.18em] text-[#7C8CFF]">
+                  01 — Brand & Customer Journey
+                </p>
+
+                <h3 className="display-font mt-4 text-3xl font-bold sm:text-4xl">
+                  Strong promotional framing, with multiple purchase-support elements.
+                </h3>
+
+                <div className="mt-7 space-y-5 text-sm leading-7 text-[#A7ADB4]">
+                  <p>
+                    The shopping experience combines broad fashion discovery with
+                    strong promotional messaging, including large discounts,
+                    additional coupon offers and sale-led merchandising.
+                  </p>
+
+                  <p>
+                    Product pages also provide practical decision support through
+                    sizing tools, fabric information, delivery details, COD,
+                    returns and payment reassurance.
+                  </p>
+                </div>
+
+                <div className="mt-7 rounded-2xl border border-[#29303A] bg-[#15181C] p-5">
+                  <p className="text-xs font-semibold uppercase tracking-[0.14em] text-[#7F8790]">
+                    Hypothesis
+                  </p>
+
+                  <p className="mt-2 text-sm leading-7 text-[#F5F5F0]">
+                    The journey appears designed to combine fashion discovery with
+                    strong value communication while reducing practical purchase
+                    hesitation.
+                  </p>
+                </div>
+              </div>
+
+            </div>
+
+            {/* 02 META ADS */}
+            <div className="mt-24">
+              <div className="max-w-3xl">
+                <p className="text-xs font-semibold uppercase tracking-[0.18em] text-[#7C8CFF]">
+                  02 — Meta Ads Analysis
+                </p>
+
+                <h3 className="display-font mt-4 text-3xl font-bold sm:text-4xl">
+                  Occasion, product demonstration and promotion form the recurring
+                  creative mix.
+                </h3>
+              </div>
+
+              <div className="mt-10 space-y-8">
+
+                {/* FESTIVE */}
+                <div className="overflow-hidden rounded-3xl border border-[#29303A] bg-[#15181C]">
+                  <div className="p-7 sm:p-9 lg:p-10">
+                    <p className="text-xs font-semibold uppercase tracking-[0.18em] text-[#7C8CFF]">
+                      Observation — Festive
+                    </p>
+
+                    <h4 className="display-font mt-4 text-2xl font-bold">
+                      Occasion-led messaging
+                    </h4>
+
+                    <p className="mt-4 text-sm leading-7 text-[#A7ADB4]">
+                      Several observed creatives connect the product to Ganpati,
+                      family gatherings and festive occasions. The hook is often
+                      emotional or problem-led before the offer appears.
+                    </p>
+
+                    <div className="mt-6 rounded-2xl border border-[#29303A] bg-[#101316] p-5">
+                      <p className="text-xs uppercase tracking-[0.14em] text-[#7F8790]">
+                        Example
+                      </p>
+
+                      <p className="mt-2 text-lg font-medium text-[#F5F5F0]">
+                        “Your festive look is sorted.”
+                      </p>
+                    </div>
+
+                    <div className="mt-6">
+                      <p className="text-xs font-semibold uppercase tracking-[0.14em] text-[#7F8790]">
+                        Why it matters
+                      </p>
+
+                      <p className="mt-2 text-sm leading-7 text-[#A7ADB4]">
+                        The product is being connected to a specific customer moment,
+                        rather than being presented only as a garment.
+                      </p>
+                    </div>
+                  </div>
+
+                </div>
+
+                {/* VIDEO / PRODUCT */}
+                <div className="overflow-hidden rounded-3xl border border-[#29303A] bg-[#15181C]">
+                  <div className="p-7 sm:p-9 lg:p-10">
+                    <p className="text-xs font-semibold uppercase tracking-[0.18em] text-[#7C8CFF]">
+                      Observation — Product Demonstration
+                    </p>
+
+                    <h4 className="display-font mt-4 text-2xl font-bold">
+                      Model-led videos do more than show the product.
+                    </h4>
+
+                    <p className="mt-4 text-sm leading-7 text-[#A7ADB4]">
+                      The videos I reviewed frequently showed models wearing the
+                      outfits, with close-up details, styling and movement.
+                    </p>
+
+                    <p className="mt-4 text-sm leading-7 text-[#A7ADB4]">
+                      This can potentially reduce uncertainty around silhouette,
+                      styling and garment details more effectively than a static
+                      product image.
+                    </p>
+
+                    <div className="mt-6 rounded-2xl border border-[#29303A] bg-[#101316] p-5">
+                      <p className="text-xs uppercase tracking-[0.14em] text-[#7F8790]">
+                        Potential gap
+                      </p>
+
+                      <p className="mt-2 text-sm leading-7 text-[#F5F5F0]">
+                        One model still cannot show how the same garment may look
+                        across different body types, and video cannot fully communicate
+                        the physical feel of fabric.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                {/* OFFERS */}
+                <div className="grid overflow-hidden rounded-3xl border border-[#29303A] bg-[#15181C] lg:grid-cols-2">
+                  <div className="p-7 sm:p-9 lg:p-10">
+                    <p className="text-xs font-semibold uppercase tracking-[0.18em] text-[#7C8CFF]">
+                      Observation — Offer Messaging
+                    </p>
+
+                    <h4 className="display-font mt-4 text-2xl font-bold">
+                      Discounts are recurring, but not the only creative angle.
+                    </h4>
+
+                    <p className="mt-4 text-sm leading-7 text-[#A7ADB4]">
+                      Across the ads reviewed, I saw repeated promotional messaging
+                      including “up to 75% off”, extra discounts and Buy 1 Get 1 style
+                      offers.
+                    </p>
+
+                    <p className="mt-4 text-sm leading-7 text-[#A7ADB4]">
+                      At the same time, other creatives focused on comfort, styling,
+                      discovery and festive use cases.
+                    </p>
+
+                    <div className="mt-6 rounded-2xl border border-[#29303A] bg-[#101316] p-5">
+                      <p className="text-xs uppercase tracking-[0.14em] text-[#7F8790]">
+                        Strategic question
+                      </p>
+
+                      <p className="mt-2 text-sm leading-7 text-[#F5F5F0]">
+                        Can product-value messaging attract qualified shoppers
+                        alongside promotion-led acquisition?
+                      </p>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+
+            {/* 03 GOOGLE */}
+            <div className="mt-24">
+              <div className="max-w-3xl">
+                <p className="text-xs font-semibold uppercase tracking-[0.18em] text-[#7C8CFF]">
+                  03 — Google Search Analysis
+                </p>
+
+                <h3 className="display-font mt-4 text-3xl font-bold sm:text-4xl">
+                  Branded visibility was clear; generic category visibility was not
+                  observed in my tests.
+                </h3>
+
+                <p className="mt-5 leading-8 text-[#A7ADB4]">
+                  In the branded searches I tested, KAFTANIZE appeared in sponsored
+                  results. In the generic category searches I tested, I did not observe
+                  KAFTANIZE in the results I recorded.
+                </p>
+              </div>
+
+              <div className="mt-10 grid gap-6 md:grid-cols-2">
+                <div className="rounded-3xl border border-[#29303A] bg-[#15181C] p-7">
+                  <p className="text-xs font-semibold uppercase tracking-[0.16em] text-[#5EE7A3]">
+                    Observed
+                  </p>
+
+                  <h4 className="mt-4 text-xl font-semibold">
+                    Branded / brand-category visibility
+                  </h4>
+
+                  <p className="mt-3 text-sm leading-7 text-[#A7ADB4]">
+                    KAFTANIZE was observed for searches such as “KAFTANIZE” and
+                    “KAFTANIZE co ord sets”.
+                  </p>
+                </div>
+
+                <div className="rounded-3xl border border-[#29303A] bg-[#15181C] p-7">
+                  <p className="text-xs font-semibold uppercase tracking-[0.16em] text-[#A8B1FF]">
+                    Hypothesis
+                  </p>
+
+                  <h4 className="mt-4 text-xl font-semibold">
+                    Possible generic Search opportunity
+                  </h4>
+
+                  <p className="mt-3 text-sm leading-7 text-[#A7ADB4]">
+                    Selected high-intent generic category searches may represent an
+                    opportunity worth testing, subject to economics and actual account
+                    data.
+                  </p>
+                </div>
+              </div>
+
+            </div>
+
+            {/* 04 COMPETITIVE BENCHMARK */}
+            <div className="mt-24">
+              <div className="max-w-3xl">
+                <p className="text-xs font-semibold uppercase tracking-[0.18em] text-[#7C8CFF]">
+                  04 — Competitive Benchmark
+                </p>
+
+                <h3 className="display-font mt-4 text-3xl font-bold sm:text-4xl">
+                  Different brands compete with different promises.
+                </h3>
+
+                <p className="mt-5 leading-8 text-[#A7ADB4]">
+                  I used recurring advertisers observed in the same search environment
+                  as a benchmark rather than treating every brand as a direct competitor.
+                </p>
+              </div>
+
+              <div className="mt-10 overflow-x-auto rounded-3xl border border-[#29303A]">
+                <table className="w-full min-w-[720px] border-collapse text-left">
+                  <thead>
+                    <tr className="border-b border-[#29303A] bg-[#15181C]">
+                      <th className="px-6 py-5 text-sm font-semibold">Brand</th>
+                      <th className="px-6 py-5 text-sm font-semibold">Observed emphasis</th>
+                      <th className="px-6 py-5 text-sm font-semibold">Offer / message</th>
+                      <th className="px-6 py-5 text-sm font-semibold">Shopping cue</th>
+                    </tr>
+                  </thead>
+
+                  <tbody>
+                    <tr className="border-b border-[#29303A]">
+                      <td className="px-6 py-5 font-semibold">KAFTANIZE</td>
+                      <td className="px-6 py-5 text-sm text-[#A7ADB4]">
+                        Festive + product + promotion
+                      </td>
+                      <td className="px-6 py-5 text-sm text-[#A7ADB4]">
+                        Large discounts, coupons, BOGO
+                      </td>
+                      <td className="px-6 py-5 text-sm text-[#A7ADB4]">
+                        Product discovery
+                      </td>
+                    </tr>
+
+                    <tr className="border-b border-[#29303A]">
+                      <td className="px-6 py-5 font-semibold">Libaas</td>
+                      <td className="px-6 py-5 text-sm text-[#A7ADB4]">
+                        Product + category clarity
+                      </td>
+                      <td className="px-6 py-5 text-sm text-[#A7ADB4]">
+                        Moderate sale framing
+                      </td>
+                      <td className="px-6 py-5 text-sm text-[#A7ADB4]">
+                        Structured shopping experience
+                      </td>
+                    </tr>
+
+                    <tr>
+                      <td className="px-6 py-5 font-semibold">The Loom</td>
+                      <td className="px-6 py-5 text-sm text-[#A7ADB4]">
+                        Offer + occasion
+                      </td>
+                      <td className="px-6 py-5 text-sm text-[#A7ADB4]">
+                        B2G1, cashback, urgency
+                      </td>
+                      <td className="px-6 py-5 text-sm text-[#A7ADB4]">
+                        Larger-basket incentives
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+
+            {/* 05 OPPORTUNITIES */}
+            <div className="mt-24">
+              <div className="max-w-3xl">
+                <p className="text-xs font-semibold uppercase tracking-[0.18em] text-[#7C8CFF]">
+                  05 — What I Would Test
+                </p>
+
+                <h3 className="display-font mt-4 text-3xl font-bold sm:text-4xl">
+                  Turn observations into controlled experiments.
+                </h3>
+              </div>
+
+              <div className="mt-10 grid gap-5 md:grid-cols-2">
+
+                {[
+                  [
+                    "01",
+                    "Offer-led vs product-value-led creative",
+                    "Test discount hooks against comfort, styling, quality and occasion-led messaging.",
+                  ],
+                  [
+                    "02",
+                    "Model video vs UGC",
+                    "Compare polished product demonstrations with more authentic customer/creator-style content.",
+                  ],
+                  [
+                    "03",
+                    "Festive vs evergreen",
+                    "Test occasion-led acquisition against non-seasonal product-benefit messaging.",
+                  ],
+                  [
+                    "04",
+                    "Trust-led landing page elements",
+                    "Test stronger review visibility, customer imagery and fit information closer to the purchase decision.",
+                  ],
+                  [
+                    "05",
+                    "Generic Google Search",
+                    "Test a tightly controlled set of high-intent category terms rather than broad keyword expansion.",
+                  ],
+                  [
+                    "06",
+                    "Message match",
+                    "Keep the promise from ad → collection → product page consistent for each traffic intent.",
+                  ],
+                ].map(([number, title, description]) => (
+                  <div
+                    key={number}
+                    className="rounded-3xl border border-[#29303A] bg-[#15181C] p-6 sm:p-7"
+                  >
+                    <span className="text-xs font-bold tracking-[0.15em] text-[#7C8CFF]">
+                      {number}
+                    </span>
+
+                    <h4 className="mt-4 text-xl font-semibold">{title}</h4>
+
+                    <p className="mt-3 text-sm leading-7 text-[#7F8790]">
+                      {description}
+                    </p>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            {/* FINAL TAKEAWAY */}
+            <div className="mt-24 rounded-[30px] border border-[#29303A] bg-[#15181C] p-8 sm:p-10 lg:p-12">
+              <p className="text-xs font-semibold uppercase tracking-[0.18em] text-[#7C8CFF]">
+                Key Takeaway
+              </p>
+
+              <p className="display-font mt-5 max-w-5xl text-2xl font-semibold leading-relaxed sm:text-3xl">
+                KAFTANIZE&apos;s observed advertising combines occasion-led storytelling,
+                model-driven product demonstration and strong promotional messaging.
+                The biggest opportunities I identified are around testing broader value
+                propositions, strengthening authentic social proof and investigating
+                carefully selected generic Search demand.
+              </p>
+            </div>
+
+          </div>
+        </section>
         <section
           id="about"
           className="border-y border-[#29303A]/70 bg-[#101316]"
