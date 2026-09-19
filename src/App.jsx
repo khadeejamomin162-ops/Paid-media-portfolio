@@ -1246,7 +1246,7 @@ function App() {
 
             <div className="mt-10 flex flex-wrap gap-3">
               <a
-                href="mailto:khadija.stack@gmail.com"
+                href="mailto:khadeeja.stack@gmail.com"
                 className="rounded-full bg-[#7C8CFF] px-5 py-3 font-semibold text-[#0B0D0F] transition hover:-translate-y-0.5"
               >
                 ✉ Email Me
@@ -1282,10 +1282,10 @@ function App() {
 
             <div className="mt-8 border-t border-[#29303A] pt-6">
               <a
-                href="mailto:khadija.stack@gmail.com"
+                href="mailto:khadeeja.stack@gmail.com"
                 className="text-sm text-[#A7ADB4] transition hover:text-[#F5F5F0]"
               >
-                khadija.stack@gmail.com
+                khadeeja.stack@gmail.com
               </a>
             </div>
           </div>
@@ -1329,7 +1329,7 @@ function App() {
             </a>
 
             <a
-              href="mailto:khadija.stack@gmail.com"
+              href="mailto:khadeeja.stack@gmail.com"
               className="transition hover:text-[#F5F5F0]"
             >
               Email
